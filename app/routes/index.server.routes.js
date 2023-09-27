@@ -6,11 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About' });
+router.get('/aboutme', function(req, res, next) {
+  res.render('aboutme', { title: 'About Me' });
 });
-router.get('/products', function(req, res, next) {
-  res.render('products', { title: 'Products' });
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects' });
 });
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
