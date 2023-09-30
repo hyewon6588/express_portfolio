@@ -8,20 +8,10 @@ Date : 2023.09.30
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/main_nav.ejs') %>
 <main class="ontainer">
-<div class="home">
-    <div class="statement" width="50%" height="100%;">
-        <!--name,mission statement-->
-        <h2>HW</h2>
-        <p>I aspire to learn new things to make a better life.</p>
+    <div class="home">
+        <%- include ('partials/mission.ejs') %>
+        <%- include ('partials/pages.ejs') %>
     </div>
-    <div class="pages">
-        <!--Buttons redirecting to pages-->
-        <button><a class="nav-link" href="/aboutme">About me</a></button>
-        <button><a class="nav-link" href="/projects">Projects</a></button>
-        <button><a class="nav-link" href="/services">Services</a></button>
-        <button><a class="nav-link" href="/contact">Contact</a></button>
-    </div>
-</div>
 </main>
 <%- include ('partials/bottom_nav.ejs') %>
 <%- include ('partials/footer.ejs') %>
