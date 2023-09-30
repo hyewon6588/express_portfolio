@@ -77,6 +77,23 @@ Date : 2023.09.30
     margin-left:auto;
 }
 
+form{
+    height:50%;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+input{
+    width:300px;
+}
+
+textarea{
+    width:300px;
+    height:100px;
+}
+
 .btnSubmit{
     border:none;
     width:100px;
@@ -85,6 +102,8 @@ Date : 2023.09.30
     font:bold;
     background-color: #5A5A5A;
     color:whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projects{
