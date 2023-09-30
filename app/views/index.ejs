@@ -1,22 +1,24 @@
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/main_nav.ejs') %>
-
     <!--<img src="img/logo.png" alt="logo">-->
-
 <main class="ontainer">
-<div class="jumbotron">
-
-    <h1>HW</h1>
-    <p>I aspire to learn new things to make a better life.</p>
-    <button><a class="nav-link" href="/aboutme">About me</a></button>
-    <button><a class="nav-link" href="/projects">Projects</a></button>
-    <button><a class="nav-link" href="/services">Services</a></button>
-    <button><a class="nav-link" href="/contact">Contact</a></button>
+<div class="home">
+    <div class="statement" width="50%" height="100%;">
+        <!-- <img src="/img/life.jpg" alt="life" width="350px" height="250px" style="opacity: 0.5;"> -->
+        <!-- <br> -->
+        <h2>HW</h2>
+        <p>I aspire to learn new things to make a better life.</p>
+    </div>
+    <div class="pages">
+        <button><a class="nav-link" href="/aboutme">About me</a></button>
+        <button><a class="nav-link" href="/projects">Projects</a></button>
+        <button><a class="nav-link" href="/services">Services</a></button>
+        <button><a class="nav-link" href="/contact">Contact</a></button>
+    </div>
 </div>
 </main>
-
-      <%- include ('partials/bottom_nav.ejs') %>
-      <%- include ('partials/footer.ejs') %>
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
 
 
 

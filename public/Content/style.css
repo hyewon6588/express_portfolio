@@ -1,0 +1,124 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin:0;
+    width:100%;
+    margin-top:-20px;
+}
+
+.statement{
+    display: flex;
+    flex-direction:column;
+    width:50%;
+    height:800px;
+    padding:0;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    margin-right:50px;
+    background-image: url("/img/life.png");
+}
+
+.pages{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture{
+    width:40%;
+    height:100%;
+    padding:0;
+    margin:0;
+    margin-right:50px;
+    background-color: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contact{
+    display: flex;
+    width:50%;
+    height:100%;
+    flex-direction: column;
+    margin:0;
+    margin-right:50px;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+}
+
+.form{
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.btnSubmit{
+    border:none;
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    font:bold;
+    background-color: #5A5A5A;
+    color:whitesmoke;
+}
+
+.projects{
+    width:100%;
+    margin-left:50px;
+    margin-right:auto;
+    padding-top:60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects:last-child{
+    margin-bottom: 40px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: initial;
+    margin-bottom: 30px;
+}
+
+.screen{
+    display: flex;
+    width:50%;
+    height:100%;
+    padding:0;
+    margin-left:50px;
+}
+
+.description{
+    /* display: inline; */
+    margin-left:-60px;
+    /* margin-left:50px; */
+    /* margin-top:-60px; */
+}
+
+button{
+    border:none;
+    width:100px;
+    height:50px;
+    margin:20px;
+    border-radius: 5px;
+    font:bold;
+    background-color: #5A5A5A;
+    color:whitesmoke;
+    margin-top: -40px;
+}
