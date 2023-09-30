@@ -1,3 +1,10 @@
+/*
+File Name : index.server.routes.js
+Student No : 301295806
+Student Name : Hyewon Ham
+Date : 2023.09.30
+*/
+
 var express = require('express');
 var router = express.Router();
 

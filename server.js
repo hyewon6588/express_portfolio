@@ -1,3 +1,10 @@
+/*
+File Name : server.js
+Student No : 301295806
+Student Name : Hyewon Ham
+Date : 2023.09.30
+*/
+
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var express = require('./config/express');
 var app = express();
